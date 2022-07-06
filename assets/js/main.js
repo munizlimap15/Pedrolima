@@ -168,6 +168,21 @@
     })
   }
 
+  let languagesContent = select('.skills-content');
+  if (languagesContent) {
+    new Waypoint({
+      element: languagesContent,
+      offset: '80%',
+      handler: function(direction) {
+        let progress = select('.progresss .progresss-bar', true);
+        progress.forEach((el) => {
+          el.style.width = el.getAttribute('aria-valuenow') + '%'
+        });
+      }
+    })
+  }
+  
+
   /**
    * Porfolio isotope and filter
    */
