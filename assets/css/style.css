@@ -253,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -290,7 +290,6 @@ h1, h2, h3, h4, h5, h6 {
   background: #45505b;
   padding: 5px; 
   border-radius: 10px;
-  
 }
 #hero .social-links a:hover {
   color: #0563bb;
@@ -375,6 +374,7 @@ section {
 }
 .about .content ul strong {
   margin-right: 10px;
+  
 }
 .about .content ul i {
   font-size: 16px;
@@ -388,6 +388,11 @@ section {
 
 #profile-pic {
   border-radius: 50%;
+}
+.about .content p {
+  font-size: 16px;
+  text-align: justify;
+  
 }
 
 /*--------------------------------------------------------------
@@ -553,6 +558,36 @@ section {
   background: #fff;
   border: 2px solid #0563bb;
 }
+
+.botao {
+  background: #0563bb;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+.botao {
+  background: #efebeb;
+}
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -928,10 +963,9 @@ section {
   width: 100%;
   background: #fff;
 }
-.contact .info i {
+.contact i {
   font-size: 20px;
   color: #0563bb;
-  float: left;
   width: 44px;
   height: 44px;
   background: #eef7ff;
@@ -941,15 +975,21 @@ section {
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
 }
+
+.icone-email {
+  text-align: -webkit-center;
+  padding-bottom: 15px;
+}
+
 .contact .info h4 {
-  padding: 0 0 0 60px;
+  padding: 0;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
   color: #45505b;
 }
 .contact .info p {
-  padding: 0 0 0 60px;
+  padding: 0;
   margin-bottom: 0;
   font-size: 14px;
   color: #728394;
@@ -1050,12 +1090,12 @@ section {
 #footer {
   background: #f7f8f9;
   color: #45505b;
-  font-size: 14px;
+  font-size: 10px;
   text-align: center;
   padding: 30px 0;
 }
 #footer h3 {
-  font-size: 36px;
+  font-size: 38px;
   font-weight: 700;
   position: relative;
   font-family: "Poppins", sans-serif;
@@ -1072,7 +1112,7 @@ section {
   margin: 0 0 40px 0;
 }
 #footer .social-links a {
-  font-size: 16px;
+  font-size: 30px;
   display: inline-block;
   background: #0563bb;
   color: #fff;
@@ -1081,8 +1121,8 @@ section {
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 50px;
+  height: 50px;
   transition: 0.3s;
 }
 #footer .social-links a:hover {
