@@ -287,7 +287,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   size: 2cm;
   transition: 0.3s;
-  background: #202bc6;
+  background: #45505b;
   padding: 5px; 
   border-radius: 10px;
   
@@ -1072,7 +1072,7 @@ section {
   margin: 0 0 40px 0;
 }
 #footer .social-links a {
-  font-size: 18px;
+  font-size: 16px;
   display: inline-block;
   background: #0563bb;
   color: #fff;
