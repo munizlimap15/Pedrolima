@@ -1136,3 +1136,14 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+/*--------------------------------------------------------------
+# Publications
+--------------------------------------------------------------*/
+.publication {
+  font-size: 13px;
+  color: #8e8d8d;
+  margin: 10px auto 0 auto;
+  width: 95%;
+  height: 100%;
+}
