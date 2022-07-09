@@ -265,7 +265,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  color: #000000;
 }
 #hero p {
   color: #45505b;
@@ -454,7 +454,7 @@ section {
 }
 .skills .progress .skill .val {
   float: right;
-  font-size: 11px;
+  font-size: 9px;
   
 }
 .skills .progress-bar-wrap {
@@ -484,11 +484,13 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #8d9296;
+  color: #968f8d;
 }
 .skills .progresss .skille .vale {
   float: right;
-  font-size: 11px;
+  font-size: 9px;
+  
+  
 }
 .skills .progresss-bar-wrap {
   background: #f2f3f5;
@@ -1140,10 +1142,10 @@ section {
 /*--------------------------------------------------------------
 # Publications
 --------------------------------------------------------------*/
-.publication {
-  font-size: 13px;
+.publications {
+  font-size: 15spx;
   color: #8e8d8d;
   margin: 10px auto 0 auto;
-  width: 95%;
+  width: 90%;
   height: 100%;
 }
