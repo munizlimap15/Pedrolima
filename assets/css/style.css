@@ -447,6 +447,7 @@ section {
 .skills .progress .skill {
   padding: 10px 0;
   margin: 0;
+  font-size: 12px;
   
   display: block;
   font-weight: 600;
@@ -455,7 +456,7 @@ section {
 }
 .skills .progress .skill .val {
   float: right;
-  font-size: 9px;
+  font-size: 9.5px;
   
 }
 .skills .progress-bar-wrap {
@@ -500,7 +501,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #bb6c05;
+  background-color: #e9801e;
 }
 
 /*--------------------------------------------------------------
@@ -1155,6 +1156,7 @@ section {
   color: #8e8d8d;
   margin: 10px auto 0 auto;
   height: 100%;
+  width: 100%;
 }
 
 /* Style the button that is used to open and close the collapsible content */
