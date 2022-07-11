@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #hero p span {
-  color: #0826e8;
+  color: #0B66C2;
   letter-spacing: 1px;
 }
 #hero .social-links {
@@ -288,7 +288,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   size: 2cm;
   transition: 0.3s;
-  background: #45505b;
+  background: #0B66C2;
   padding: 5px; 
   border-radius: 10px;
 }
@@ -1182,10 +1182,11 @@ section {
 /* Style the collapsible content. Note: hidden by default */
 .content {
   padding: 0 18px;
-  background-color: white;
+  background-color: rgb(241, 241, 241);
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  text-align: justify;
 }
 .collapsible:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
