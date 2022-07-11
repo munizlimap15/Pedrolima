@@ -619,6 +619,10 @@ section {
   color: #272829;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
+  background-color:  rgba(138, 139, 140, 0.1);
+  border: solid;
+  border-width: 1px;
+    
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #0563bb;
