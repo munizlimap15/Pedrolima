@@ -1162,7 +1162,9 @@ section {
   height: 100%;
   width: 100%;
 }
-
+.paperTitle {
+  color: #605757;
+}
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
   background-color: #0563bb;;
